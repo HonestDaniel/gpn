@@ -1,0 +1,42 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.chart {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel {
+  width: 200px;
+   &_calc {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 100px;
+     &_text {
+       color: #667985;
+       letter-spacing: 0.5px;
+     }
+     &_value {
+       margin-top: 15px;
+       color: #F38B00;
+       font-size: 45px;
+       &_symbol {
+         color: #667985;
+         font-size: 20px;
+         margin-left: 15px;
+       }
+     }
+   }
+}
